@@ -37,27 +37,29 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
   <body class="wy-body-for-nav" role="document">
 
     <div class="header-top">
-      
+
         <div class="header-top-left">
-          <a href="http://citrix.github.io" class="logo-position"><img height="60" src="./img/citrixlogoblack.png" target="_blank" class="logo-citrix"><span style="color:#000;font-size: 20px;position: relative;top:4px;left:20px;">Developer Documentation</span></a>
+          <a href="http://developer-docs.citrix.com" class="logo-position"><img height="60" src="./img/citrixlogoblack.png" target="_blank" class="logo-citrix"><span style="color:#000;font-size: 20px;position: relative;top:4px;left:20px;">Developer Documentation</span></a>
         </div>
         <div class="header-top-right">
           <ul>
 
-            <form id="rtd-search-form" class="wy-form" action="./search.html" method="get">
+            <form id="rtd-search-form-alt" class="wy-form" action="./search.html" method="get">
              <ul class="header-elements">
               <li class="list-inline support">
                 <input name="q" id="txtName" type="text" placeholder="Search SDKs" class="searchdocs">
                 <a class="fa fa-search errspan"></a>
+<!---
               </li>
              <li> <a href="javascript:void(0);" style="font-size: 22px;position: relative;left: -10px;top: 3px"><i class="fa fa-globe"></i></a></li>
              </ul>
+             --->
             </form>
 
           </ul>
 
         </div>
-      
+
     </div>
     <div class="body">
       <div class="wy-grid-for-nav">
@@ -66,7 +68,7 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
         <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
           <div class="wy-side-nav-search">
             <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+  <form id ="rtd-search-form-alt" class="wy-form" action="./search.html" method="get">
 	<i class="fa fa-search"></i>
     <input type="text" name="q" placeholder="Search docs" />
   </form>
@@ -164,16 +166,15 @@ https://www.citrix.com/etc/designs/citrix/icon-favicon.png">
                   </div>
                   </div>
                    <h1 id="fast-connect-3-credential-insertion-api-for-citrix-receiver-for-windows"><a class="toclink" href="#fast-connect-3-credential-insertion-api-for-citrix-receiver-for-windows">Fast Connect 3 Credential Insertion API for Citrix Receiver for Windows</a></h1>
-<p>The Fast Connect 3 Credential Insertion API provides an interface that
-supplies user credentials to the single sign-on (SSO) feature of Citrix
-Receiver for Windows 4.2 and later. Using this API, Citrix partners can provide authentication and SSO products that use StoreFront or the
-Web Interface to log users on to virtual applications or desktops and
-then disconnect users from those sessions.</p>
-<p>The system requirements and prerequisites for the API are the same as
-those for Receiver. Note that XenDesktop 7 does not support the Web
-Interface.</p>
-<p>The Fast Connect 2 API is still available, but can be used only with
-Receiver for Windows 3.4.</p> 
+<p>The Fast Connect 3 Credential Insertion API provides an interface that supplies user credentials to the single sign-on (SSO) feature of Citrix Receiver for Windows 4.2 and later. Using this API, Citrix partners can provide authentication and SSO products that use StoreFront or the Web Interface to log users on to virtual applications or desktops and then disconnect users from those sessions.</p>
+<p>The system requirements and prerequisites for the API are the same as those for Receiver. Note that XenDesktop 7 does not support the Web Interface.</p>
+<p>The Fast Connect 2 API is still available, but can be used only with Receiver for Windows 3.4.
+If you are using Citrix Receiver for Windows Version 4.11 and later, install the Microsoft Visual 2017 C++ Redistributable Package using the following link:</p>
+<ul>
+<li>For x86 machine: <a href="https://aka.ms/vs/15/release/vc_redist.x86.exe">https://aka.ms/vs/15/release/vc_redist.x86.exe</a></li>
+<li>For x64 machine: <a href="https://aka.ms/vs/15/release/vc_redist.x64.exe">https://aka.ms/vs/15/release/vc_redist.x64.exe</a>
+ </li>
+</ul> 
 
                 </div>
               </div>
@@ -210,5 +211,5 @@ Receiver for Windows 3.4.</p>
 
 <!--
 MkDocs version : 0.16.1
-Build Date UTC : 2017-05-11 11:18:18
+Build Date UTC : 2018-02-21 11:46:28
 -->
